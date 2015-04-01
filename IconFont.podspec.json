@@ -1,6 +1,6 @@
 {
   "name": "IconFont",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "IconFont is a way to build lossless images of pure color with font file.",
   "homepage": "http://gitlab.alibaba-inc.com/xiaozhe.hxz/iconfont",
   "description": "IconFont is a way to build images of pure color with font file. With it we can build lossless image at any size and reduce app size deeply.",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "http://gitlab.alibaba-inc.com/xiaozhe.hxz/iconfont.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "license": "MIT",
   "requires_arc": true,
