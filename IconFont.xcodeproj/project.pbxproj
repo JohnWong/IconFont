@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52029EB119D92C2E0098E134 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52029EB019D92C2E0098E134 /* Images.xcassets */; };
+		521BAB7119E7A4BD00F95E80 /* JWIconPerformanceTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521BAB7019E7A4BD00F95E80 /* JWIconPerformanceTestViewController.m */; };
+		5226A18119DA966B002B3881 /* JWIconImageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226A18019DA966B002B3881 /* JWIconImageCollectionViewController.m */; };
+		5227258C19D532D000F5F91E /* UIView+RSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227257F19D532D000F5F91E /* UIView+RSAdditions.m */; };
+		5227258D19D532D000F5F91E /* JWCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227258219D532D000F5F91E /* JWCollectionHeaderView.m */; };
+		5227258F19D532D000F5F91E /* JWIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227258619D532D000F5F91E /* JWIconCell.m */; };
+		522733CC19D2B5C500A25C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522733CA19D2B5C500A25C06 /* Main.storyboard */; };
+		522733D119D2B5C500A25C06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522733CF19D2B5C500A25C06 /* LaunchScreen.xib */; };
+		523E1A4A19D45E5800F9F042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523E1A3D19D45E5800F9F042 /* AppDelegate.m */; };
+		523E1A5919D45E8B00F9F042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 523E1A5619D45E8B00F9F042 /* main.m */; };
+		523E1AA319D4655200F9F042 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 523E1AA119D4655200F9F042 /* first@2x.png */; };
+		523E1AA419D4655200F9F042 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 523E1AA219D4655200F9F042 /* second@2x.png */; };
+		5262CED61ACC2B0B00CC656D /* LLIconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5262CED41ACC2B0B00CC656D /* LLIconfont.ttf */; };
+		5262CEE11ACC2B2500CC656D /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262CEDB1ACC2B2500CC656D /* TBCityIconFont.m */; };
+		5262CEE21ACC2B2500CC656D /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262CEDD1ACC2B2500CC656D /* TBCityIconInfo.m */; };
+		5262CEE31ACC2B2500CC656D /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262CEDF1ACC2B2500CC656D /* UIImage+TBCityIconFont.m */; };
+		52E5C1461A074D750034C33F /* appreciate32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E5C1431A074D750034C33F /* appreciate32@2x.png */; };
+		52E5C1471A074D750034C33F /* appreciate64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E5C1441A074D750034C33F /* appreciate64@2x.png */; };
+		52E5C1481A074D750034C33F /* appreciate200@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E5C1451A074D750034C33F /* appreciate200@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52029EB019D92C2E0098E134 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		521BAB6F19E7A4BD00F95E80 /* JWIconPerformanceTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWIconPerformanceTestViewController.h; sourceTree = "<group>"; };
+		521BAB7019E7A4BD00F95E80 /* JWIconPerformanceTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWIconPerformanceTestViewController.m; sourceTree = "<group>"; };
+		5226A17F19DA966B002B3881 /* JWIconImageCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWIconImageCollectionViewController.h; sourceTree = "<group>"; };
+		5226A18019DA966B002B3881 /* JWIconImageCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWIconImageCollectionViewController.m; sourceTree = "<group>"; };
+		5227257E19D532D000F5F91E /* UIView+RSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RSAdditions.h"; sourceTree = "<group>"; };
+		5227257F19D532D000F5F91E /* UIView+RSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RSAdditions.m"; sourceTree = "<group>"; };
+		5227258119D532D000F5F91E /* JWCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCollectionHeaderView.h; sourceTree = "<group>"; };
+		5227258219D532D000F5F91E /* JWCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCollectionHeaderView.m; sourceTree = "<group>"; };
+		5227258519D532D000F5F91E /* JWIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWIconCell.h; sourceTree = "<group>"; };
+		5227258619D532D000F5F91E /* JWIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWIconCell.m; sourceTree = "<group>"; };
+		522733BA19D2B5C500A25C06 /* IconFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		522733CB19D2B5C500A25C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		522733D019D2B5C500A25C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		523E1A3C19D45E5800F9F042 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		523E1A3D19D45E5800F9F042 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		523E1A5519D45E8B00F9F042 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523E1A5619D45E8B00F9F042 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		523E1AA119D4655200F9F042 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		523E1AA219D4655200F9F042 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		523E1AAB19D470E600F9F042 /* IconFont-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IconFont-Prefix.pch"; sourceTree = "<group>"; };
+		5262CED41ACC2B0B00CC656D /* LLIconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LLIconfont.ttf; path = ../../../IconFont/IconFont/Classes/LLIconfont.ttf; sourceTree = "<group>"; };
+		5262CED51ACC2B0B00CC656D /* TBCityFontImageDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBCityFontImageDefine.h; path = ../../../IconFont/IconFont/Classes/TBCityFontImageDefine.h; sourceTree = "<group>"; };
+		5262CEDA1ACC2B2500CC656D /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
+		5262CEDB1ACC2B2500CC656D /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
+		5262CEDC1ACC2B2500CC656D /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
+		5262CEDD1ACC2B2500CC656D /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
+		5262CEDE1ACC2B2500CC656D /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
+		5262CEDF1ACC2B2500CC656D /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
+		52E5C1431A074D750034C33F /* appreciate32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate32@2x.png"; sourceTree = "<group>"; };
+		52E5C1441A074D750034C33F /* appreciate64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate64@2x.png"; sourceTree = "<group>"; };
+		52E5C1451A074D750034C33F /* appreciate200@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate200@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		522733B719D2B5C500A25C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5227257119D532D000F5F91E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5226A17F19DA966B002B3881 /* JWIconImageCollectionViewController.h */,
+				5226A18019DA966B002B3881 /* JWIconImageCollectionViewController.m */,
+				521BAB6F19E7A4BD00F95E80 /* JWIconPerformanceTestViewController.h */,
+				521BAB7019E7A4BD00F95E80 /* JWIconPerformanceTestViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5227257B19D532D000F5F91E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5227257E19D532D000F5F91E /* UIView+RSAdditions.h */,
+				5227257F19D532D000F5F91E /* UIView+RSAdditions.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5227258019D532D000F5F91E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5227258119D532D000F5F91E /* JWCollectionHeaderView.h */,
+				5227258219D532D000F5F91E /* JWCollectionHeaderView.m */,
+				5227258519D532D000F5F91E /* JWIconCell.h */,
+				5227258619D532D000F5F91E /* JWIconCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		522733B119D2B5C500A25C06 = {
+			isa = PBXGroup;
+			children = (
+				522733BC19D2B5C500A25C06 /* IconFont */,
+				522733BB19D2B5C500A25C06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		522733BB19D2B5C500A25C06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				522733BA19D2B5C500A25C06 /* IconFont.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		522733BC19D2B5C500A25C06 /* IconFont */ = {
+			isa = PBXGroup;
+			children = (
+				5262CED71ACC2B2500CC656D /* IconFont */,
+				523E1A5319D45E8B00F9F042 /* Supporting Files */,
+				523E1A3B19D45E5800F9F042 /* Classes */,
+				522733F219D2F81500A25C06 /* Resources */,
+				522733CA19D2B5C500A25C06 /* Main.storyboard */,
+				522733CF19D2B5C500A25C06 /* LaunchScreen.xib */,
+			);
+			path = IconFont;
+			sourceTree = "<group>";
+		};
+		522733F219D2F81500A25C06 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52E5C1431A074D750034C33F /* appreciate32@2x.png */,
+				52E5C1441A074D750034C33F /* appreciate64@2x.png */,
+				52E5C1451A074D750034C33F /* appreciate200@2x.png */,
+				523E1AA119D4655200F9F042 /* first@2x.png */,
+				523E1AA219D4655200F9F042 /* second@2x.png */,
+				52029EB019D92C2E0098E134 /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		523E1A3B19D45E5800F9F042 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				523E1A3C19D45E5800F9F042 /* AppDelegate.h */,
+				5262CED51ACC2B0B00CC656D /* TBCityFontImageDefine.h */,
+				523E1A3D19D45E5800F9F042 /* AppDelegate.m */,
+				5262CED41ACC2B0B00CC656D /* LLIconfont.ttf */,
+				5227257119D532D000F5F91E /* Controller */,
+				5227257B19D532D000F5F91E /* Utility */,
+				5227258019D532D000F5F91E /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		523E1A5319D45E8B00F9F042 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				523E1A5519D45E8B00F9F042 /* Info.plist */,
+				523E1A5619D45E8B00F9F042 /* main.m */,
+				523E1AAB19D470E600F9F042 /* IconFont-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5262CED71ACC2B2500CC656D /* IconFont */ = {
+			isa = PBXGroup;
+			children = (
+				5262CEDA1ACC2B2500CC656D /* TBCityIconFont.h */,
+				5262CEDB1ACC2B2500CC656D /* TBCityIconFont.m */,
+				5262CEDC1ACC2B2500CC656D /* TBCityIconInfo.h */,
+				5262CEDD1ACC2B2500CC656D /* TBCityIconInfo.m */,
+				5262CEDE1ACC2B2500CC656D /* UIImage+TBCityIconFont.h */,
+				5262CEDF1ACC2B2500CC656D /* UIImage+TBCityIconFont.m */,
+			);
+			name = IconFont;
+			path = ../../IconFont/IconFont/IconFont;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		522733B919D2B5C500A25C06 /* IconFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522733E019D2B5C500A25C06 /* Build configuration list for PBXNativeTarget "IconFont" */;
+			buildPhases = (
+				522733B619D2B5C500A25C06 /* Sources */,
+				522733B719D2B5C500A25C06 /* Frameworks */,
+				522733B819D2B5C500A25C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconFont;
+			productName = IconFont;
+			productReference = 522733BA19D2B5C500A25C06 /* IconFont.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		522733B219D2B5C500A25C06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TBCity;
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Taodiandian;
+				TargetAttributes = {
+					522733B919D2B5C500A25C06 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 522733B519D2B5C500A25C06 /* Build configuration list for PBXProject "IconFont" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 522733B119D2B5C500A25C06;
+			productRefGroup = 522733BB19D2B5C500A25C06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				522733B919D2B5C500A25C06 /* IconFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		522733B819D2B5C500A25C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522733CC19D2B5C500A25C06 /* Main.storyboard in Resources */,
+				523E1AA319D4655200F9F042 /* first@2x.png in Resources */,
+				52E5C1471A074D750034C33F /* appreciate64@2x.png in Resources */,
+				52E5C1461A074D750034C33F /* appreciate32@2x.png in Resources */,
+				522733D119D2B5C500A25C06 /* LaunchScreen.xib in Resources */,
+				52E5C1481A074D750034C33F /* appreciate200@2x.png in Resources */,
+				52029EB119D92C2E0098E134 /* Images.xcassets in Resources */,
+				523E1AA419D4655200F9F042 /* second@2x.png in Resources */,
+				5262CED61ACC2B0B00CC656D /* LLIconfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		522733B619D2B5C500A25C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5262CEE11ACC2B2500CC656D /* TBCityIconFont.m in Sources */,
+				5226A18119DA966B002B3881 /* JWIconImageCollectionViewController.m in Sources */,
+				523E1A5919D45E8B00F9F042 /* main.m in Sources */,
+				523E1A4A19D45E5800F9F042 /* AppDelegate.m in Sources */,
+				5227258F19D532D000F5F91E /* JWIconCell.m in Sources */,
+				5262CEE21ACC2B2500CC656D /* TBCityIconInfo.m in Sources */,
+				521BAB7119E7A4BD00F95E80 /* JWIconPerformanceTestViewController.m in Sources */,
+				5227258D19D532D000F5F91E /* JWCollectionHeaderView.m in Sources */,
+				5227258C19D532D000F5F91E /* UIView+RSAdditions.m in Sources */,
+				5262CEE31ACC2B2500CC656D /* UIImage+TBCityIconFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		522733CA19D2B5C500A25C06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522733CB19D2B5C500A25C06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		522733CF19D2B5C500A25C06 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522733D019D2B5C500A25C06 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		522733DE19D2B5C500A25C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "IconFont/Supporting Files/IconFont-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		522733DF19D2B5C500A25C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "IconFont/Supporting Files/IconFont-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		522733E119D2B5C500A25C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/IconFont/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		522733E219D2B5C500A25C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/IconFont/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		522733B519D2B5C500A25C06 /* Build configuration list for PBXProject "IconFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522733DE19D2B5C500A25C06 /* Debug */,
+				522733DF19D2B5C500A25C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522733E019D2B5C500A25C06 /* Build configuration list for PBXNativeTarget "IconFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522733E119D2B5C500A25C06 /* Debug */,
+				522733E219D2B5C500A25C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 522733B219D2B5C500A25C06 /* Project object */;
+}

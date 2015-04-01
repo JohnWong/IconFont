@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D98g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="0tJ-b6-C7b" kind="relationship" relationship="viewControllers" id="DC5-v1-F57"/>
+                        <segue destination="2AD-AI-Lcb" kind="relationship" relationship="viewControllers" id="1u3-vg-CXZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1295" y="1496"/>
+        </scene>
+        <!--IconFont-->
+        <scene sceneID="jf9-MG-Gfz">
+            <objects>
+                <navigationController id="0tJ-b6-C7b" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="IconFont" image="second.png" id="oFZ-G2-0ie"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XLX-vL-evn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="OQB-0U-qAG" kind="relationship" relationship="rootViewController" id="QWr-Ve-gea"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a52-sk-zXu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-154" y="1352"/>
+        </scene>
+        <!--IconFont-->
+        <scene sceneID="MWw-Sh-Q8f">
+            <objects>
+                <collectionViewController id="OQB-0U-qAG" customClass="JWIconImageCollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Wsu-7K-eQF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="12" minimumInteritemSpacing="12" id="IXs-E5-9aI">
+                            <size key="itemSize" width="64" height="64"/>
+                            <size key="headerReferenceSize" width="320" height="38"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="12" minY="12" maxX="12" maxY="12"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="JWIconCell" id="gnf-yK-aYy" customClass="JWIconCell">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </collectionViewCell>
+                        </cells>
+                        <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeaderView" id="R20-PH-JHT" customClass="JWCollectionHeaderView">
+                            <rect key="frame" x="0.0" y="64" width="320" height="38"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Muy-de-aci">
+                                    <rect key="frame" x="12" y="0.0" width="296" height="38"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" name="secondarySelectedControlColor" catalog="System" colorSpace="catalog"/>
+                            <connections>
+                                <outlet property="titleLabel" destination="Muy-de-aci" id="gEA-yH-t7c"/>
+                            </connections>
+                        </collectionReusableView>
+                        <connections>
+                            <outlet property="dataSource" destination="OQB-0U-qAG" id="vlf-tW-HRD"/>
+                            <outlet property="delegate" destination="OQB-0U-qAG" id="e2v-pN-Fok"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="IconFont" id="1Dx-XG-6BG"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TJ5-Kz-u43" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="290" y="1352"/>
+        </scene>
+        <!--性能测试-->
+        <scene sceneID="fur-ih-M5q">
+            <objects>
+                <viewController id="8sB-Jk-3Kx" customClass="JWIconPerformanceTestViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7XW-aQ-vlf"/>
+                        <viewControllerLayoutGuide type="bottom" id="8YV-8T-2yo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GGi-rz-DDW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1rH-bC-QKz">
+                                <rect key="frame" x="16" y="80" width="110" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="jVR-Ir-Fsq"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="IconFont"/>
+                                    <segment title="PNG"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FX4-r9-d2T">
+                                <rect key="frame" x="258" y="77" width="46" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="5jz-Th-SDe"/>
+                                </constraints>
+                                <state key="normal" title="Test!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doTest:" destination="8sB-Jk-3Kx" eventType="touchUpInside" id="SWS-Xj-ebZ"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WgG-rW-adN">
+                                <rect key="frame" x="0.0" y="124" width="320" height="444"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.5" colorSpace="calibratedWhite"/>
+                            </scrollView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1mi-GL-80K">
+                                <rect key="frame" x="142" y="80" width="113" height="29"/>
+                                <segments>
+                                    <segment title="32"/>
+                                    <segment title="64"/>
+                                    <segment title="200"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1rH-bC-QKz" firstAttribute="top" secondItem="7XW-aQ-vlf" secondAttribute="bottom" constant="16" id="1g5-zK-EDJ"/>
+                            <constraint firstItem="WgG-rW-adN" firstAttribute="top" secondItem="1rH-bC-QKz" secondAttribute="bottom" constant="16" id="1sz-sk-nTr"/>
+                            <constraint firstAttribute="trailing" secondItem="WgG-rW-adN" secondAttribute="trailing" id="GGZ-ts-ztN"/>
+                            <constraint firstItem="WgG-rW-adN" firstAttribute="bottom" secondItem="GGi-rz-DDW" secondAttribute="bottomMargin" id="J0b-kc-FJ4"/>
+                            <constraint firstItem="FX4-r9-d2T" firstAttribute="trailing" secondItem="GGi-rz-DDW" secondAttribute="trailingMargin" id="VPZ-cn-n8M"/>
+                            <constraint firstItem="1mi-GL-80K" firstAttribute="top" secondItem="7XW-aQ-vlf" secondAttribute="bottom" constant="16" id="ard-d3-h9q"/>
+                            <constraint firstItem="WgG-rW-adN" firstAttribute="leading" secondItem="GGi-rz-DDW" secondAttribute="leading" id="arn-YO-0zQ"/>
+                            <constraint firstItem="WgG-rW-adN" firstAttribute="top" secondItem="1mi-GL-80K" secondAttribute="bottom" constant="16" id="bJY-T6-iua"/>
+                            <constraint firstItem="WgG-rW-adN" firstAttribute="top" secondItem="FX4-r9-d2T" secondAttribute="bottom" constant="14" id="eID-tE-f3n"/>
+                            <constraint firstItem="FX4-r9-d2T" firstAttribute="top" secondItem="7XW-aQ-vlf" secondAttribute="bottom" constant="13" id="hm0-vd-V6l"/>
+                            <constraint firstItem="1mi-GL-80K" firstAttribute="leading" secondItem="1rH-bC-QKz" secondAttribute="trailing" constant="16" id="kRT-ck-ldO"/>
+                            <constraint firstItem="1rH-bC-QKz" firstAttribute="leading" secondItem="GGi-rz-DDW" secondAttribute="leadingMargin" id="mLq-jv-gLC"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="性能测试" id="Tla-Wh-CJZ"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="scrollView" destination="WgG-rW-adN" id="8ib-lY-1kl"/>
+                        <outlet property="sizeSegment" destination="1mi-GL-80K" id="toz-1e-VSJ"/>
+                        <outlet property="typeSegment" destination="1rH-bC-QKz" id="gFd-T5-GUx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OaG-Jg-baH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="285" y="1968"/>
+        </scene>
+        <!--性能-->
+        <scene sceneID="q87-ow-yIc">
+            <objects>
+                <navigationController id="2AD-AI-Lcb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="性能" image="first.png" id="8bb-g5-he4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wax-ER-gGw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="8sB-Jk-3Kx" kind="relationship" relationship="rootViewController" id="CHT-ff-mcf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hdE-aJ-orK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-154" y="1968"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first.png" width="30" height="30"/>
+        <image name="second.png" width="30" height="30"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

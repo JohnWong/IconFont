@@ -1,0 +1,22 @@
+//
+//  IconFont-Prefix.pch
+//  IconFont
+//
+//  Created by John Wong on 9/25/14.
+//  Copyright (c) 2014 Taodiandian. All rights reserved.
+//
+
+#ifndef IconFont_IconFont_Prefix_pch
+#define IconFont_IconFont_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIView+RSAdditions.h"
+#import "TBCityFontImageDefine.h"
+#import "TBCityIconFont.h"
+
+#define HEXCOLORA(rgbValue, a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16)) / 255.0 green:((float)((rgbValue & 0xFF00) >> 8)) / 255.0 blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:a]
+#define HEXCOLOR(rgbValue) HEXCOLORA(rgbValue, 1.0)
+
+#endif
