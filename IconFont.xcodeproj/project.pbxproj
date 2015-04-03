@@ -7,47 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52029EB119D92C2E0098E134 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52029EB019D92C2E0098E134 /* Images.xcassets */; };
-		521BAB7119E7A4BD00F95E80 /* JWPerformanceTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521BAB7019E7A4BD00F95E80 /* JWPerformanceTestViewController.m */; };
-		522733CC19D2B5C500A25C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522733CA19D2B5C500A25C06 /* Main.storyboard */; };
-		522733D119D2B5C500A25C06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522733CF19D2B5C500A25C06 /* LaunchScreen.xib */; };
-		523E1A4A19D45E5800F9F042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523E1A3D19D45E5800F9F042 /* AppDelegate.m */; };
-		523E1A5919D45E8B00F9F042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 523E1A5619D45E8B00F9F042 /* main.m */; };
-		5262CED61ACC2B0B00CC656D /* LLIconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5262CED41ACC2B0B00CC656D /* LLIconfont.ttf */; };
-		5262CEE11ACC2B2500CC656D /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262CEDB1ACC2B2500CC656D /* TBCityIconFont.m */; };
-		5262CEE21ACC2B2500CC656D /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262CEDD1ACC2B2500CC656D /* TBCityIconInfo.m */; };
-		5262CEE31ACC2B2500CC656D /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262CEDF1ACC2B2500CC656D /* UIImage+TBCityIconFont.m */; };
-		529D16211ACED98E00158EB9 /* TBCityIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529D16201ACED98E00158EB9 /* TBCityIconViewController.m */; };
-		52E5C1461A074D750034C33F /* appreciate32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E5C1431A074D750034C33F /* appreciate32@2x.png */; };
-		52E5C1471A074D750034C33F /* appreciate64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E5C1441A074D750034C33F /* appreciate64@2x.png */; };
-		52E5C1481A074D750034C33F /* appreciate200@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E5C1451A074D750034C33F /* appreciate200@2x.png */; };
+		52DEC0F81ACF1AA000447ACC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DEC0DF1ACF1AA000447ACC /* LaunchScreen.xib */; };
+		52DEC0F91ACF1AA000447ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DEC0E11ACF1AA000447ACC /* Main.storyboard */; };
+		52DEC0FA1ACF1AA000447ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC0E51ACF1AA000447ACC /* AppDelegate.m */; };
+		52DEC0FB1ACF1AA000447ACC /* JWPerformanceTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC0E81ACF1AA000447ACC /* JWPerformanceTestViewController.m */; };
+		52DEC0FC1ACF1AA000447ACC /* TBCityIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC0EA1ACF1AA000447ACC /* TBCityIconViewController.m */; };
+		52DEC0FD1ACF1AA000447ACC /* LLIconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52DEC0EB1ACF1AA000447ACC /* LLIconfont.ttf */; };
+		52DEC0FE1ACF1AA000447ACC /* appreciate200@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52DEC0F01ACF1AA000447ACC /* appreciate200@2x.png */; };
+		52DEC0FF1ACF1AA000447ACC /* appreciate32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52DEC0F11ACF1AA000447ACC /* appreciate32@2x.png */; };
+		52DEC1001ACF1AA000447ACC /* appreciate64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52DEC0F21ACF1AA000447ACC /* appreciate64@2x.png */; };
+		52DEC1011ACF1AA000447ACC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DEC0F31ACF1AA000447ACC /* Images.xcassets */; };
+		52DEC1021ACF1AA000447ACC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52DEC0F61ACF1AA000447ACC /* Info.plist */; };
+		52DEC1031ACF1AA000447ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC0F71ACF1AA000447ACC /* main.m */; };
+		52DEC10B1ACF1AE400447ACC /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC1061ACF1AE400447ACC /* TBCityIconFont.m */; };
+		52DEC10C1ACF1AE400447ACC /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC1081ACF1AE400447ACC /* TBCityIconInfo.m */; };
+		52DEC10D1ACF1AE400447ACC /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC10A1ACF1AE400447ACC /* UIImage+TBCityIconFont.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52029EB019D92C2E0098E134 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		521BAB6F19E7A4BD00F95E80 /* JWPerformanceTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPerformanceTestViewController.h; sourceTree = "<group>"; };
-		521BAB7019E7A4BD00F95E80 /* JWPerformanceTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPerformanceTestViewController.m; sourceTree = "<group>"; };
 		522733BA19D2B5C500A25C06 /* IconFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		522733CB19D2B5C500A25C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		522733D019D2B5C500A25C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		523E1A3C19D45E5800F9F042 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		523E1A3D19D45E5800F9F042 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		523E1A5519D45E8B00F9F042 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		523E1A5619D45E8B00F9F042 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		523E1AAB19D470E600F9F042 /* IconFont-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IconFont-Prefix.pch"; sourceTree = "<group>"; };
-		5262CED41ACC2B0B00CC656D /* LLIconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LLIconfont.ttf; path = ../../../IconFont/IconFont/Classes/LLIconfont.ttf; sourceTree = "<group>"; };
-		5262CED51ACC2B0B00CC656D /* TBCityIconDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBCityIconDefine.h; path = ../../../IconFont/IconFont/Classes/TBCityIconDefine.h; sourceTree = "<group>"; };
-		5262CEDA1ACC2B2500CC656D /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
-		5262CEDB1ACC2B2500CC656D /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
-		5262CEDC1ACC2B2500CC656D /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
-		5262CEDD1ACC2B2500CC656D /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
-		5262CEDE1ACC2B2500CC656D /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
-		5262CEDF1ACC2B2500CC656D /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
-		529D161F1ACED98E00158EB9 /* TBCityIconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconViewController.h; sourceTree = "<group>"; };
-		529D16201ACED98E00158EB9 /* TBCityIconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconViewController.m; sourceTree = "<group>"; };
-		52E5C1431A074D750034C33F /* appreciate32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate32@2x.png"; sourceTree = "<group>"; };
-		52E5C1441A074D750034C33F /* appreciate64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate64@2x.png"; sourceTree = "<group>"; };
-		52E5C1451A074D750034C33F /* appreciate200@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate200@2x.png"; sourceTree = "<group>"; };
+		52DEC0E01ACF1AA000447ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52DEC0E21ACF1AA000447ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52DEC0E41ACF1AA000447ACC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52DEC0E51ACF1AA000447ACC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52DEC0E71ACF1AA000447ACC /* JWPerformanceTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPerformanceTestViewController.h; sourceTree = "<group>"; };
+		52DEC0E81ACF1AA000447ACC /* JWPerformanceTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPerformanceTestViewController.m; sourceTree = "<group>"; };
+		52DEC0E91ACF1AA000447ACC /* TBCityIconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconViewController.h; sourceTree = "<group>"; };
+		52DEC0EA1ACF1AA000447ACC /* TBCityIconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconViewController.m; sourceTree = "<group>"; };
+		52DEC0EB1ACF1AA000447ACC /* LLIconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLIconfont.ttf; sourceTree = "<group>"; };
+		52DEC0EC1ACF1AA000447ACC /* TBCityIconDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconDefine.h; sourceTree = "<group>"; };
+		52DEC0F01ACF1AA000447ACC /* appreciate200@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate200@2x.png"; sourceTree = "<group>"; };
+		52DEC0F11ACF1AA000447ACC /* appreciate32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate32@2x.png"; sourceTree = "<group>"; };
+		52DEC0F21ACF1AA000447ACC /* appreciate64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate64@2x.png"; sourceTree = "<group>"; };
+		52DEC0F31ACF1AA000447ACC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52DEC0F51ACF1AA000447ACC /* IconFont-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IconFont-Prefix.pch"; sourceTree = "<group>"; };
+		52DEC0F61ACF1AA000447ACC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DEC0F71ACF1AA000447ACC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52DEC1051ACF1AE400447ACC /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
+		52DEC1061ACF1AE400447ACC /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
+		52DEC1071ACF1AE400447ACC /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
+		52DEC1081ACF1AE400447ACC /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
+		52DEC1091ACF1AE400447ACC /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
+		52DEC10A1ACF1AE400447ACC /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,21 +62,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5227257119D532D000F5F91E /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				521BAB6F19E7A4BD00F95E80 /* JWPerformanceTestViewController.h */,
-				521BAB7019E7A4BD00F95E80 /* JWPerformanceTestViewController.m */,
-				529D161F1ACED98E00158EB9 /* TBCityIconViewController.h */,
-				529D16201ACED98E00158EB9 /* TBCityIconViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		522733B119D2B5C500A25C06 = {
 			isa = PBXGroup;
 			children = (
-				522733BC19D2B5C500A25C06 /* IconFont */,
+				52DEC1041ACF1AE400447ACC /* IconFont */,
+				52DEC0DE1ACF1AA000447ACC /* Example */,
 				522733BB19D2B5C500A25C06 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,64 +79,89 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		522733BC19D2B5C500A25C06 /* IconFont */ = {
+		52DEC0DE1ACF1AA000447ACC /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				5262CED71ACC2B2500CC656D /* IconFont */,
-				523E1A5319D45E8B00F9F042 /* Supporting Files */,
-				523E1A3B19D45E5800F9F042 /* Classes */,
-				522733F219D2F81500A25C06 /* Resources */,
-				522733CA19D2B5C500A25C06 /* Main.storyboard */,
-				522733CF19D2B5C500A25C06 /* LaunchScreen.xib */,
+				52DEC0DF1ACF1AA000447ACC /* LaunchScreen.xib */,
+				52DEC0E11ACF1AA000447ACC /* Main.storyboard */,
+				52DEC0E31ACF1AA000447ACC /* Classes */,
+				52DEC0EF1ACF1AA000447ACC /* Resources */,
+				52DEC0F41ACF1AA000447ACC /* Supporting Files */,
 			);
-			path = IconFont;
+			path = Example;
 			sourceTree = "<group>";
 		};
-		522733F219D2F81500A25C06 /* Resources */ = {
+		52DEC0E31ACF1AA000447ACC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				52E5C1431A074D750034C33F /* appreciate32@2x.png */,
-				52E5C1441A074D750034C33F /* appreciate64@2x.png */,
-				52E5C1451A074D750034C33F /* appreciate200@2x.png */,
-				52029EB019D92C2E0098E134 /* Images.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		523E1A3B19D45E5800F9F042 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				523E1A3C19D45E5800F9F042 /* AppDelegate.h */,
-				5262CED51ACC2B0B00CC656D /* TBCityIconDefine.h */,
-				523E1A3D19D45E5800F9F042 /* AppDelegate.m */,
-				5262CED41ACC2B0B00CC656D /* LLIconfont.ttf */,
-				5227257119D532D000F5F91E /* Controller */,
+				52DEC0E41ACF1AA000447ACC /* AppDelegate.h */,
+				52DEC0E51ACF1AA000447ACC /* AppDelegate.m */,
+				52DEC0E61ACF1AA000447ACC /* Controller */,
+				52DEC0EB1ACF1AA000447ACC /* LLIconfont.ttf */,
+				52DEC0EC1ACF1AA000447ACC /* TBCityIconDefine.h */,
+				52DEC0ED1ACF1AA000447ACC /* Utility */,
+				52DEC0EE1ACF1AA000447ACC /* View */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		523E1A5319D45E8B00F9F042 /* Supporting Files */ = {
+		52DEC0E61ACF1AA000447ACC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				523E1A5519D45E8B00F9F042 /* Info.plist */,
-				523E1A5619D45E8B00F9F042 /* main.m */,
-				523E1AAB19D470E600F9F042 /* IconFont-Prefix.pch */,
+				52DEC0E71ACF1AA000447ACC /* JWPerformanceTestViewController.h */,
+				52DEC0E81ACF1AA000447ACC /* JWPerformanceTestViewController.m */,
+				52DEC0E91ACF1AA000447ACC /* TBCityIconViewController.h */,
+				52DEC0EA1ACF1AA000447ACC /* TBCityIconViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52DEC0ED1ACF1AA000447ACC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		52DEC0EE1ACF1AA000447ACC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52DEC0EF1ACF1AA000447ACC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52DEC0F01ACF1AA000447ACC /* appreciate200@2x.png */,
+				52DEC0F11ACF1AA000447ACC /* appreciate32@2x.png */,
+				52DEC0F21ACF1AA000447ACC /* appreciate64@2x.png */,
+				52DEC0F31ACF1AA000447ACC /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52DEC0F41ACF1AA000447ACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52DEC0F51ACF1AA000447ACC /* IconFont-Prefix.pch */,
+				52DEC0F61ACF1AA000447ACC /* Info.plist */,
+				52DEC0F71ACF1AA000447ACC /* main.m */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5262CED71ACC2B2500CC656D /* IconFont */ = {
+		52DEC1041ACF1AE400447ACC /* IconFont */ = {
 			isa = PBXGroup;
 			children = (
-				5262CEDA1ACC2B2500CC656D /* TBCityIconFont.h */,
-				5262CEDB1ACC2B2500CC656D /* TBCityIconFont.m */,
-				5262CEDC1ACC2B2500CC656D /* TBCityIconInfo.h */,
-				5262CEDD1ACC2B2500CC656D /* TBCityIconInfo.m */,
-				5262CEDE1ACC2B2500CC656D /* UIImage+TBCityIconFont.h */,
-				5262CEDF1ACC2B2500CC656D /* UIImage+TBCityIconFont.m */,
+				52DEC1051ACF1AE400447ACC /* TBCityIconFont.h */,
+				52DEC1061ACF1AE400447ACC /* TBCityIconFont.m */,
+				52DEC1071ACF1AE400447ACC /* TBCityIconInfo.h */,
+				52DEC1081ACF1AE400447ACC /* TBCityIconInfo.m */,
+				52DEC1091ACF1AE400447ACC /* UIImage+TBCityIconFont.h */,
+				52DEC10A1ACF1AE400447ACC /* UIImage+TBCityIconFont.m */,
 			);
-			name = IconFont;
-			path = ../../IconFont/IconFont/IconFont;
+			path = IconFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,13 +222,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522733CC19D2B5C500A25C06 /* Main.storyboard in Resources */,
-				52E5C1471A074D750034C33F /* appreciate64@2x.png in Resources */,
-				52E5C1461A074D750034C33F /* appreciate32@2x.png in Resources */,
-				522733D119D2B5C500A25C06 /* LaunchScreen.xib in Resources */,
-				52E5C1481A074D750034C33F /* appreciate200@2x.png in Resources */,
-				52029EB119D92C2E0098E134 /* Images.xcassets in Resources */,
-				5262CED61ACC2B0B00CC656D /* LLIconfont.ttf in Resources */,
+				52DEC0F81ACF1AA000447ACC /* LaunchScreen.xib in Resources */,
+				52DEC0FE1ACF1AA000447ACC /* appreciate200@2x.png in Resources */,
+				52DEC0FF1ACF1AA000447ACC /* appreciate32@2x.png in Resources */,
+				52DEC1021ACF1AA000447ACC /* Info.plist in Resources */,
+				52DEC1001ACF1AA000447ACC /* appreciate64@2x.png in Resources */,
+				52DEC1011ACF1AA000447ACC /* Images.xcassets in Resources */,
+				52DEC0F91ACF1AA000447ACC /* Main.storyboard in Resources */,
+				52DEC0FD1ACF1AA000447ACC /* LLIconfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,33 +240,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5262CEE11ACC2B2500CC656D /* TBCityIconFont.m in Sources */,
-				523E1A5919D45E8B00F9F042 /* main.m in Sources */,
-				523E1A4A19D45E5800F9F042 /* AppDelegate.m in Sources */,
-				5262CEE21ACC2B2500CC656D /* TBCityIconInfo.m in Sources */,
-				529D16211ACED98E00158EB9 /* TBCityIconViewController.m in Sources */,
-				521BAB7119E7A4BD00F95E80 /* JWPerformanceTestViewController.m in Sources */,
-				5262CEE31ACC2B2500CC656D /* UIImage+TBCityIconFont.m in Sources */,
+				52DEC0FC1ACF1AA000447ACC /* TBCityIconViewController.m in Sources */,
+				52DEC0FB1ACF1AA000447ACC /* JWPerformanceTestViewController.m in Sources */,
+				52DEC0FA1ACF1AA000447ACC /* AppDelegate.m in Sources */,
+				52DEC10B1ACF1AE400447ACC /* TBCityIconFont.m in Sources */,
+				52DEC1031ACF1AA000447ACC /* main.m in Sources */,
+				52DEC10D1ACF1AE400447ACC /* UIImage+TBCityIconFont.m in Sources */,
+				52DEC10C1ACF1AE400447ACC /* TBCityIconInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		522733CA19D2B5C500A25C06 /* Main.storyboard */ = {
+		52DEC0DF1ACF1AA000447ACC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				522733CB19D2B5C500A25C06 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		522733CF19D2B5C500A25C06 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				522733D019D2B5C500A25C06 /* Base */,
+				52DEC0E01ACF1AA000447ACC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		52DEC0E11ACF1AA000447ACC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DEC0E21ACF1AA000447ACC /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,7 +358,8 @@
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/IconFont/Supporting Files/Info.plist";
+				GCC_PREFIX_HEADER = "Example/Supporting Files/IconFont-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,7 +374,8 @@
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/IconFont/Supporting Files/Info.plist";
+				GCC_PREFIX_HEADER = "Example/Supporting Files/IconFont-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
