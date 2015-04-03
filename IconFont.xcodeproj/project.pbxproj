@@ -17,7 +17,6 @@
 		52DEC0FF1ACF1AA000447ACC /* appreciate32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52DEC0F11ACF1AA000447ACC /* appreciate32@2x.png */; };
 		52DEC1001ACF1AA000447ACC /* appreciate64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52DEC0F21ACF1AA000447ACC /* appreciate64@2x.png */; };
 		52DEC1011ACF1AA000447ACC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DEC0F31ACF1AA000447ACC /* Images.xcassets */; };
-		52DEC1021ACF1AA000447ACC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52DEC0F61ACF1AA000447ACC /* Info.plist */; };
 		52DEC1031ACF1AA000447ACC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC0F71ACF1AA000447ACC /* main.m */; };
 		52DEC10B1ACF1AE400447ACC /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC1061ACF1AE400447ACC /* TBCityIconFont.m */; };
 		52DEC10C1ACF1AE400447ACC /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC1081ACF1AE400447ACC /* TBCityIconInfo.m */; };
@@ -225,7 +224,6 @@
 				52DEC0F81ACF1AA000447ACC /* LaunchScreen.xib in Resources */,
 				52DEC0FE1ACF1AA000447ACC /* appreciate200@2x.png in Resources */,
 				52DEC0FF1ACF1AA000447ACC /* appreciate32@2x.png in Resources */,
-				52DEC1021ACF1AA000447ACC /* Info.plist in Resources */,
 				52DEC1001ACF1AA000447ACC /* appreciate64@2x.png in Resources */,
 				52DEC1011ACF1AA000447ACC /* Images.xcassets in Resources */,
 				52DEC0F91ACF1AA000447ACC /* Main.storyboard in Resources */,
