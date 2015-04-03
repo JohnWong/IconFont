@@ -8,21 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		52029EB119D92C2E0098E134 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52029EB019D92C2E0098E134 /* Images.xcassets */; };
-		521BAB7119E7A4BD00F95E80 /* JWIconPerformanceTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521BAB7019E7A4BD00F95E80 /* JWIconPerformanceTestViewController.m */; };
-		5226A18119DA966B002B3881 /* JWIconImageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226A18019DA966B002B3881 /* JWIconImageCollectionViewController.m */; };
-		5227258C19D532D000F5F91E /* UIView+RSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227257F19D532D000F5F91E /* UIView+RSAdditions.m */; };
-		5227258D19D532D000F5F91E /* JWCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227258219D532D000F5F91E /* JWCollectionHeaderView.m */; };
-		5227258F19D532D000F5F91E /* JWIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227258619D532D000F5F91E /* JWIconCell.m */; };
+		521BAB7119E7A4BD00F95E80 /* JWPerformanceTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521BAB7019E7A4BD00F95E80 /* JWPerformanceTestViewController.m */; };
 		522733CC19D2B5C500A25C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522733CA19D2B5C500A25C06 /* Main.storyboard */; };
 		522733D119D2B5C500A25C06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522733CF19D2B5C500A25C06 /* LaunchScreen.xib */; };
 		523E1A4A19D45E5800F9F042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523E1A3D19D45E5800F9F042 /* AppDelegate.m */; };
 		523E1A5919D45E8B00F9F042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 523E1A5619D45E8B00F9F042 /* main.m */; };
-		523E1AA319D4655200F9F042 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 523E1AA119D4655200F9F042 /* first@2x.png */; };
-		523E1AA419D4655200F9F042 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 523E1AA219D4655200F9F042 /* second@2x.png */; };
 		5262CED61ACC2B0B00CC656D /* LLIconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5262CED41ACC2B0B00CC656D /* LLIconfont.ttf */; };
 		5262CEE11ACC2B2500CC656D /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262CEDB1ACC2B2500CC656D /* TBCityIconFont.m */; };
 		5262CEE21ACC2B2500CC656D /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262CEDD1ACC2B2500CC656D /* TBCityIconInfo.m */; };
 		5262CEE31ACC2B2500CC656D /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5262CEDF1ACC2B2500CC656D /* UIImage+TBCityIconFont.m */; };
+		529D16211ACED98E00158EB9 /* TBCityIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529D16201ACED98E00158EB9 /* TBCityIconViewController.m */; };
 		52E5C1461A074D750034C33F /* appreciate32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E5C1431A074D750034C33F /* appreciate32@2x.png */; };
 		52E5C1471A074D750034C33F /* appreciate64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E5C1441A074D750034C33F /* appreciate64@2x.png */; };
 		52E5C1481A074D750034C33F /* appreciate200@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52E5C1451A074D750034C33F /* appreciate200@2x.png */; };
@@ -30,16 +25,8 @@
 
 /* Begin PBXFileReference section */
 		52029EB019D92C2E0098E134 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		521BAB6F19E7A4BD00F95E80 /* JWIconPerformanceTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWIconPerformanceTestViewController.h; sourceTree = "<group>"; };
-		521BAB7019E7A4BD00F95E80 /* JWIconPerformanceTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWIconPerformanceTestViewController.m; sourceTree = "<group>"; };
-		5226A17F19DA966B002B3881 /* JWIconImageCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWIconImageCollectionViewController.h; sourceTree = "<group>"; };
-		5226A18019DA966B002B3881 /* JWIconImageCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWIconImageCollectionViewController.m; sourceTree = "<group>"; };
-		5227257E19D532D000F5F91E /* UIView+RSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RSAdditions.h"; sourceTree = "<group>"; };
-		5227257F19D532D000F5F91E /* UIView+RSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RSAdditions.m"; sourceTree = "<group>"; };
-		5227258119D532D000F5F91E /* JWCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWCollectionHeaderView.h; sourceTree = "<group>"; };
-		5227258219D532D000F5F91E /* JWCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWCollectionHeaderView.m; sourceTree = "<group>"; };
-		5227258519D532D000F5F91E /* JWIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWIconCell.h; sourceTree = "<group>"; };
-		5227258619D532D000F5F91E /* JWIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWIconCell.m; sourceTree = "<group>"; };
+		521BAB6F19E7A4BD00F95E80 /* JWPerformanceTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPerformanceTestViewController.h; sourceTree = "<group>"; };
+		521BAB7019E7A4BD00F95E80 /* JWPerformanceTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPerformanceTestViewController.m; sourceTree = "<group>"; };
 		522733BA19D2B5C500A25C06 /* IconFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522733CB19D2B5C500A25C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		522733D019D2B5C500A25C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -47,17 +34,17 @@
 		523E1A3D19D45E5800F9F042 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		523E1A5519D45E8B00F9F042 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		523E1A5619D45E8B00F9F042 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		523E1AA119D4655200F9F042 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		523E1AA219D4655200F9F042 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		523E1AAB19D470E600F9F042 /* IconFont-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IconFont-Prefix.pch"; sourceTree = "<group>"; };
 		5262CED41ACC2B0B00CC656D /* LLIconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = LLIconfont.ttf; path = ../../../IconFont/IconFont/Classes/LLIconfont.ttf; sourceTree = "<group>"; };
-		5262CED51ACC2B0B00CC656D /* TBCityFontImageDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBCityFontImageDefine.h; path = ../../../IconFont/IconFont/Classes/TBCityFontImageDefine.h; sourceTree = "<group>"; };
+		5262CED51ACC2B0B00CC656D /* TBCityIconDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBCityIconDefine.h; path = ../../../IconFont/IconFont/Classes/TBCityIconDefine.h; sourceTree = "<group>"; };
 		5262CEDA1ACC2B2500CC656D /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
 		5262CEDB1ACC2B2500CC656D /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
 		5262CEDC1ACC2B2500CC656D /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
 		5262CEDD1ACC2B2500CC656D /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
 		5262CEDE1ACC2B2500CC656D /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
 		5262CEDF1ACC2B2500CC656D /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
+		529D161F1ACED98E00158EB9 /* TBCityIconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconViewController.h; sourceTree = "<group>"; };
+		529D16201ACED98E00158EB9 /* TBCityIconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconViewController.m; sourceTree = "<group>"; };
 		52E5C1431A074D750034C33F /* appreciate32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate32@2x.png"; sourceTree = "<group>"; };
 		52E5C1441A074D750034C33F /* appreciate64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate64@2x.png"; sourceTree = "<group>"; };
 		52E5C1451A074D750034C33F /* appreciate200@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate200@2x.png"; sourceTree = "<group>"; };
@@ -77,32 +64,12 @@
 		5227257119D532D000F5F91E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				5226A17F19DA966B002B3881 /* JWIconImageCollectionViewController.h */,
-				5226A18019DA966B002B3881 /* JWIconImageCollectionViewController.m */,
-				521BAB6F19E7A4BD00F95E80 /* JWIconPerformanceTestViewController.h */,
-				521BAB7019E7A4BD00F95E80 /* JWIconPerformanceTestViewController.m */,
+				521BAB6F19E7A4BD00F95E80 /* JWPerformanceTestViewController.h */,
+				521BAB7019E7A4BD00F95E80 /* JWPerformanceTestViewController.m */,
+				529D161F1ACED98E00158EB9 /* TBCityIconViewController.h */,
+				529D16201ACED98E00158EB9 /* TBCityIconViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		5227257B19D532D000F5F91E /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				5227257E19D532D000F5F91E /* UIView+RSAdditions.h */,
-				5227257F19D532D000F5F91E /* UIView+RSAdditions.m */,
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
-		5227258019D532D000F5F91E /* View */ = {
-			isa = PBXGroup;
-			children = (
-				5227258119D532D000F5F91E /* JWCollectionHeaderView.h */,
-				5227258219D532D000F5F91E /* JWCollectionHeaderView.m */,
-				5227258519D532D000F5F91E /* JWIconCell.h */,
-				5227258619D532D000F5F91E /* JWIconCell.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		522733B119D2B5C500A25C06 = {
@@ -140,8 +107,6 @@
 				52E5C1431A074D750034C33F /* appreciate32@2x.png */,
 				52E5C1441A074D750034C33F /* appreciate64@2x.png */,
 				52E5C1451A074D750034C33F /* appreciate200@2x.png */,
-				523E1AA119D4655200F9F042 /* first@2x.png */,
-				523E1AA219D4655200F9F042 /* second@2x.png */,
 				52029EB019D92C2E0098E134 /* Images.xcassets */,
 			);
 			path = Resources;
@@ -151,12 +116,10 @@
 			isa = PBXGroup;
 			children = (
 				523E1A3C19D45E5800F9F042 /* AppDelegate.h */,
-				5262CED51ACC2B0B00CC656D /* TBCityFontImageDefine.h */,
+				5262CED51ACC2B0B00CC656D /* TBCityIconDefine.h */,
 				523E1A3D19D45E5800F9F042 /* AppDelegate.m */,
 				5262CED41ACC2B0B00CC656D /* LLIconfont.ttf */,
 				5227257119D532D000F5F91E /* Controller */,
-				5227257B19D532D000F5F91E /* Utility */,
-				5227258019D532D000F5F91E /* View */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -244,13 +207,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				522733CC19D2B5C500A25C06 /* Main.storyboard in Resources */,
-				523E1AA319D4655200F9F042 /* first@2x.png in Resources */,
 				52E5C1471A074D750034C33F /* appreciate64@2x.png in Resources */,
 				52E5C1461A074D750034C33F /* appreciate32@2x.png in Resources */,
 				522733D119D2B5C500A25C06 /* LaunchScreen.xib in Resources */,
 				52E5C1481A074D750034C33F /* appreciate200@2x.png in Resources */,
 				52029EB119D92C2E0098E134 /* Images.xcassets in Resources */,
-				523E1AA419D4655200F9F042 /* second@2x.png in Resources */,
 				5262CED61ACC2B0B00CC656D /* LLIconfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,14 +224,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5262CEE11ACC2B2500CC656D /* TBCityIconFont.m in Sources */,
-				5226A18119DA966B002B3881 /* JWIconImageCollectionViewController.m in Sources */,
 				523E1A5919D45E8B00F9F042 /* main.m in Sources */,
 				523E1A4A19D45E5800F9F042 /* AppDelegate.m in Sources */,
-				5227258F19D532D000F5F91E /* JWIconCell.m in Sources */,
 				5262CEE21ACC2B2500CC656D /* TBCityIconInfo.m in Sources */,
-				521BAB7119E7A4BD00F95E80 /* JWIconPerformanceTestViewController.m in Sources */,
-				5227258D19D532D000F5F91E /* JWCollectionHeaderView.m in Sources */,
-				5227258C19D532D000F5F91E /* UIView+RSAdditions.m in Sources */,
+				529D16211ACED98E00158EB9 /* TBCityIconViewController.m in Sources */,
+				521BAB7119E7A4BD00F95E80 /* JWPerformanceTestViewController.m in Sources */,
 				5262CEE31ACC2B2500CC656D /* UIImage+TBCityIconFont.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +342,7 @@
 					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/IconFont/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -399,7 +357,7 @@
 					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/IconFont/Supporting Files/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

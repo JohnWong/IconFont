@@ -1,5 +1,5 @@
 //
-//  JWIconPerformanceTestViewController.h
+//  JWPerformanceTestViewController.h
 //  IconFont
 //
 //  Created by John Wong on 10/10/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JWIconPerformanceTestViewController : UIViewController
+@interface JWPerformanceTestViewController : UIViewController
 
 @end

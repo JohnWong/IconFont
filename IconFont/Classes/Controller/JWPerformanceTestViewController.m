@@ -1,23 +1,24 @@
 //
-//  JWIconPerformanceTestViewController.m
+//  JWPerformanceTestViewController.m
 //  IconFont
 //
 //  Created by John Wong on 10/10/14.
 //  Copyright (c) 2014 Taodiandian. All rights reserved.
 //
 
-#import "JWIconPerformanceTestViewController.h"
+#import "JWPerformanceTestViewController.h"
 
-@interface JWIconPerformanceTestViewController ()
+@interface JWPerformanceTestViewController ()
 
-@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
-@property (nonatomic, assign) NSInteger testCount;
+@property (nonatomic, assign) NSInteger                 testCount;
+
+@property (weak, nonatomic) IBOutlet UIScrollView       *scrollView;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *typeSegment;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *sizeSegment;
 
 @end
 
-@implementation JWIconPerformanceTestViewController
+@implementation JWPerformanceTestViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -63,7 +64,7 @@
         }
         [self.scrollView addSubview:imageView];
     }
-    self.scrollView.contentSize = CGSizeMake(self.view.width, size * testCount);
+    self.scrollView.contentSize = CGSizeMake(self.view.frame.size.width, size * testCount);
     
     NSTimeInterval timeCost = -[beginDate timeIntervalSinceNow];
     NSLog(@"Time Cost: %f Size: %ld %@", timeCost, size, self.typeSegment.selectedSegmentIndex == 0? @"Font": @"Image");
