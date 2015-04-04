@@ -16,6 +16,25 @@ IconFont是一种通过字体文件来构建纯色图的方案。更详细的介
 
 ## 使用指南
 
+### 安装IconFont
+
+#### 必要条件
+
+Xcode 5
+iOS 6.0 +
+ARC enabled
+CoreText framework
+
+#### 使用CocoaPods安装
+
+添加`pod 'IconFont', '~> 0.0.2'`到你项目的Podfile中。
+
+运行`pod install`或者`pod update`来安装。
+
+#### 手动安装
+
+下载源码，将IconFont目录拖到你的项目中，并添加CoreText框架到你的项目中。
+
 ### 得到字体文件
 
 强烈建议用[iconfont.cn](http://iconfont.cn/)平台管理字体，资源多，易用。或者使用字体工具自行编辑字体，比如[FontForge](http://fontforge.github.io/en-US/)。如果想了解FontForge的使用，可以看我翻译的官方文档[FontForge与字体设计](http://designwithfontforge.com/zh-CN/index.html)。
