@@ -20,5 +20,6 @@
     "UIKit",
     "CoreGraphics"
   ],
-  "source_files": "IconFont/*.{h,m}"
+  "source_files": "IconFont/*.{h,m}",
+  "requires_arc": true
 }
