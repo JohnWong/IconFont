@@ -44,9 +44,9 @@ IconFont是一种通过字体文件来构建纯色图的方案。更详细的介
 其中`e601`图标在字体中存放的Unicode字符位。如果字体从iconfont.cn网站下载，这个值可以在页面上图标下方找到。可能更好的方法是在另一个文件中将图标预定义好，方便管理，使用的时候也更加简洁。
 ```objective-c
 // TBCityIconDefine.h
-
-#define kTBCityIconCheck        TBCityIconInfoMake(@"\U0000e601", kTBCityIconSize, HEXCOLOR(0x00bb9c))
+#define kTBCityIconCheck TBCityIconInfoMake(@"\U0000e601", 24, [UIColor blackColor])
 ```
+
 ```objective-c
 [UIImage iconWithInfo:kTBCityIconAppreciate]
 ```
