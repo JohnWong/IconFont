@@ -6,9 +6,6 @@
 //  Copyright (c) 2014 Taodiandian. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-
 @interface TBCityIconInfo : NSObject
 
 @property (nonatomic, strong) NSString *text;

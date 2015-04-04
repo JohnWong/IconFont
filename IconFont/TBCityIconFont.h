@@ -6,10 +6,6 @@
 //  Copyright (c) 2014 Taodiandian. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <CoreGraphics/CoreGraphics.h>
-#import <UIKit/UIKit.h>
-
 #import "UIImage+TBCityIconFont.h"
 #import "TBCityIconInfo.h"
 
