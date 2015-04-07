@@ -1,10 +1,10 @@
 IconFont ![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)
 =======================
 
-IconFont is a way to build lossless images of pure color with font file.
-
 ![Version](http://cocoapod-badges.herokuapp.com/v/IconFont/badge.png)
 ![Platform](http://cocoapod-badges.herokuapp.com/p/IconFont/badge.png)
+
+IconFont is a way to build lossless images of pure color with font file.
 
 ## 简介
 
