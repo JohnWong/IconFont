@@ -9,7 +9,16 @@
 #import "UIImage+TBCityIconFont.h"
 #import "TBCityIconInfo.h"
 
-#define TBCityIconInfoMake(text, imageSize, imageColor) [TBCityIconInfo iconInfoWithText:text size:imageSize color:imageColor]
+#ifndef TBCityIconFont_h
+#define TBCityIconFont_h
+
+static TBCityIconInfo* TBCityIconInfoMake(NSString *text, CGFloat size, UIColor *color)
+{
+    return [TBCityIconInfo iconInfoWithText:text size:size color:color];
+}
+
+#endif
+
 
 @interface TBCityIconFont : NSObject
 

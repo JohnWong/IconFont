@@ -13,6 +13,6 @@
 #define HEXCOLOR(rgbValue) HEXCOLORA(rgbValue, 1.0)
 
 #import "TBCityIconFont.h"
-#import "TBCityIconDefine.h"
+#import "TBCityIcon.h"
 
 #endif

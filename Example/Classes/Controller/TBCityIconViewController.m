@@ -29,20 +29,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _appreciateIcon.image = [UIImage iconWithInfo:kTBCityIconAppreciate];
-    _checkIcon.image = [UIImage iconWithInfo:kTBCityIconCheck];
-    _closeIcon.image = [UIImage iconWithInfo:kTBCityIconClose];
-    _editIcon.image = [UIImage iconWithInfo:kTBCityIconEdit];
+    _appreciateIcon.image = [UIImage iconWithInfo:[TBCityIcon appreciate]];
+    _checkIcon.image = [UIImage iconWithInfo:[TBCityIcon check]];
+    _closeIcon.image = [UIImage iconWithInfo:[TBCityIcon close]];
+    _editIcon.image = [UIImage iconWithInfo:[TBCityIcon edit]];
     
-    _emojiIcon.image = [UIImage iconWithInfo:kTBCityIconEmoji];
-    _favorFillIcon.image = [UIImage iconWithInfo:kTBCityIconFavorFill];
-    _favorIcon.image = [UIImage iconWithInfo:kTBCityIconFavor];
-    _loadingIcon.image = [UIImage iconWithInfo:kTBCityIconLoading];
+    _emojiIcon.image = [UIImage iconWithInfo:[TBCityIcon emoji]];
+    _favorFillIcon.image = [UIImage iconWithInfo:[TBCityIcon favorFill]];
+    _favorIcon.image = [UIImage iconWithInfo:[TBCityIcon favor]];
+    _loadingIcon.image = [UIImage iconWithInfo:[TBCityIcon loading]];
     
-    _locationFillIcon.image = [UIImage iconWithInfo:kTBCityIconLocationFill];
-    _locationIcon.image = [UIImage iconWithInfo:kTBCityIconLocation];
-    _phoneIcon.image = [UIImage iconWithInfo:kTBCityIconPhone];
-    _roundCheckIcon.image = [UIImage iconWithInfo:kTBCityIconRoundCheck];
+    _locationFillIcon.image = [UIImage iconWithInfo:[TBCityIcon locationFill]];
+    _locationIcon.image = [UIImage iconWithInfo:[TBCityIcon location]];
+    _phoneIcon.image = [UIImage iconWithInfo:[TBCityIcon phone]];
+    _roundCheckIcon.image = [UIImage iconWithInfo:[TBCityIcon roundCheck]];
 }
 
 @end

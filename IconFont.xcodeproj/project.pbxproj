@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52509BCD1AD6C63000732FBD /* TBCityIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 52509BCC1AD6C63000732FBD /* TBCityIcon.m */; };
 		52DEC0F81ACF1AA000447ACC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DEC0DF1ACF1AA000447ACC /* LaunchScreen.xib */; };
 		52DEC0F91ACF1AA000447ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DEC0E11ACF1AA000447ACC /* Main.storyboard */; };
 		52DEC0FA1ACF1AA000447ACC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC0E51ACF1AA000447ACC /* AppDelegate.m */; };
@@ -23,8 +24,23 @@
 		52DEC10D1ACF1AE400447ACC /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC10A1ACF1AE400447ACC /* UIImage+TBCityIconFont.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildRule section */
+		52509BD01AD6E3C900732FBD /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "";
+		};
+/* End PBXBuildRule section */
+
 /* Begin PBXFileReference section */
 		522733BA19D2B5C500A25C06 /* IconFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52509BCB1AD6C63000732FBD /* TBCityIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIcon.h; sourceTree = "<group>"; };
+		52509BCC1AD6C63000732FBD /* TBCityIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIcon.m; sourceTree = "<group>"; };
+		52509BCE1AD6D5FA00732FBD /* IconFont.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IconFont.json; sourceTree = "<group>"; };
 		52DEC0E01ACF1AA000447ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		52DEC0E21ACF1AA000447ACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52DEC0E41ACF1AA000447ACC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -34,7 +50,6 @@
 		52DEC0E91ACF1AA000447ACC /* TBCityIconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconViewController.h; sourceTree = "<group>"; };
 		52DEC0EA1ACF1AA000447ACC /* TBCityIconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconViewController.m; sourceTree = "<group>"; };
 		52DEC0EB1ACF1AA000447ACC /* LLIconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLIconfont.ttf; sourceTree = "<group>"; };
-		52DEC0EC1ACF1AA000447ACC /* TBCityIconDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconDefine.h; sourceTree = "<group>"; };
 		52DEC0F01ACF1AA000447ACC /* appreciate200@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate200@2x.png"; sourceTree = "<group>"; };
 		52DEC0F11ACF1AA000447ACC /* appreciate32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate32@2x.png"; sourceTree = "<group>"; };
 		52DEC0F21ACF1AA000447ACC /* appreciate64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appreciate64@2x.png"; sourceTree = "<group>"; };
@@ -66,6 +81,7 @@
 			children = (
 				52DEC1041ACF1AE400447ACC /* IconFont */,
 				52DEC0DE1ACF1AA000447ACC /* Example */,
+				52509BCE1AD6D5FA00732FBD /* IconFont.json */,
 				522733BB19D2B5C500A25C06 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,9 +113,10 @@
 				52DEC0E51ACF1AA000447ACC /* AppDelegate.m */,
 				52DEC0E61ACF1AA000447ACC /* Controller */,
 				52DEC0EB1ACF1AA000447ACC /* LLIconfont.ttf */,
-				52DEC0EC1ACF1AA000447ACC /* TBCityIconDefine.h */,
 				52DEC0ED1ACF1AA000447ACC /* Utility */,
 				52DEC0EE1ACF1AA000447ACC /* View */,
+				52509BCB1AD6C63000732FBD /* TBCityIcon.h */,
+				52509BCC1AD6C63000732FBD /* TBCityIcon.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -170,11 +187,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 522733E019D2B5C500A25C06 /* Build configuration list for PBXNativeTarget "IconFont" */;
 			buildPhases = (
+				52509BD11AD6E43000732FBD /* Check IconFont */,
 				522733B619D2B5C500A25C06 /* Sources */,
 				522733B719D2B5C500A25C06 /* Frameworks */,
 				522733B819D2B5C500A25C06 /* Resources */,
 			);
 			buildRules = (
+				52509BD01AD6E3C900732FBD /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -233,6 +252,24 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52509BD11AD6E43000732FBD /* Check IconFont */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check IconFont";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\nif ! test -e \"IconFont.py\";then\n  curl -L https://raw.githubusercontent.com/JohnWong/PyTTF/master/ttf.py >> IconFont.py\nfi\npython IconFont.py\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		522733B619D2B5C500A25C06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -245,6 +282,7 @@
 				52DEC1031ACF1AA000447ACC /* main.m in Sources */,
 				52DEC10D1ACF1AE400447ACC /* UIImage+TBCityIconFont.m in Sources */,
 				52DEC10C1ACF1AE400447ACC /* TBCityIconInfo.m in Sources */,
+				52509BCD1AD6C63000732FBD /* TBCityIcon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
