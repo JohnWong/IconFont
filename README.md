@@ -63,14 +63,68 @@ CoreText framework
 [TBCityIconFont setFontName:@"LLIconfont"];
 ```
 
+### 码表构建
+
+我在尝试新的构建流程，将字体中包含的Unicode码点列出到代码中。这样可以防止使用图标字库中不存在的字符。如果你觉得没有必要，那么直接跳到下一节。
+
+* 添加构建脚本
+  * 选中项目的Target，点击Build Phases
+  * 点击+，选择New Run Script Phase
+  * 重命名当前的Phase为Check IconFont，并拖动到Compile Sources之前
+  * 展开`Check IconFont`，在文本框加入如下代码：
+
+```
+#!/bin/sh
+if ! test -e "IconFont.py";then
+  curl -L https://raw.githubusercontent.com/JohnWong/PyTTF/master/ttf.py >> IconFont.py
+fi
+python IconFont.py
+```
+这里下载的脚本来自我写的解析TrueType文件的Python脚本[https://github.com/JohnWong/pyttf](https://github.com/JohnWong/pyttf)。
+
+* 创建图标定义类
+
+例如创建`TBCityIcon`类，用来管理所有的图标定义。在其中插入一段特殊注释，脚本会在构建时在这里列出字体文件所包含的所有码点。注释格式如下：
+
+```
+/* IconFont Unicode Start */
+/* IconFont Unicode End */
+```
+
+* 项目目录下创建配置文件`IconFont.json`，例如示例工程中配置如下：
+
+```
+{
+    "checksum": "504204786d9de64e7da1b6d3dcdfc52c",
+    "font": "Example/Classes/LLIconfont.ttf",
+    "define": "Example/Classes/TBCityIcon.m"
+}
+```
+
+其中font为项目中使用的字体文件路径，define为图标定义类，比如前面创建的`TBCityIcon.m`，checksum不必填写。脚本会在每次构建时检查font字段指定的字体文件的md5，与配置文件的记录相比较。如果不同则解析字体文件的所有码点，并存放到define指定文件的一段特殊注释之间，比如：
+
+```
+/* IconFont Unicode Start */
+static NSString *const u0078 = @"x";
+static NSString *const ue600 = @"\U0000e600";
+static NSString *const ue601 = @"\U0000e601";
+/* IconFont Unicode End */
+```
+
 ### 创建UIImage
 
-使用UIImage的category方法从字体创建UIImage：
+接下来可以使用UIImage的category方法从字体创建UIImage。
+
+#### 直接使用
 
 ```objective-c
 [UIImage iconWithInfo:TBCityIconInfoMake(@"\U0000e601", 24, [UIColor blackColor])]
 ```
-其中`e601`图标在字体中存放的Unicode字符位。如果字体从iconfont.cn网站下载，这个值可以在页面上图标下方找到。可能更好的方法是在另一个文件中将图标预定义好，方便管理，使用的时候也更加简洁。
+其中`e601`图标在字体中存放的Unicode字符位。如果字体从iconfont.cn网站下载，这个值可以在页面上图标下方找到。
+
+#### 使用预定义管理图标
+
+可能更好的方法是在另一个文件中将图标预定义好，方便管理，使用的时候也更加简洁。
 
 ```objective-c
 // TBCityIconDefine.h
@@ -79,7 +133,24 @@ CoreText framework
 ```
 
 ```objective-c
-[UIImage iconWithInfo:kTBCityIconAppreciate]
+[UIImage iconWithInfo:kTBCityIconCheck]
+```
+
+#### 新的构建流程
+
+如果你尝试了上一节`码表构建`，那么执行一次构建，图标定义类`TBCityIcon`中就会列出字体的所有码点。就可以很方便地定义图标：
+```
+// TBCityIcon.h
++ (TBCityIconInfo *)appreciate;
+
+// TBCityIcon.m
++ (TBCityIconInfo *)appreciate {
+    return TBCityIconInfoMake(ue600, kTBCityIconSize, [UIColor blackColor]);
+}
+```
+创建UIImage也非常简单了：
+```
+[UIImage iconWithInfo:[TBCityIcon appreciate]]
 ```
 
 ### 代码结构
