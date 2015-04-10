@@ -43,7 +43,7 @@ CoreText framework
 
 强烈建议用[iconfont.cn](http://iconfont.cn/)平台管理字体，资源多，易用。或者使用字体工具自行编辑字体，比如[FontForge](http://fontforge.github.io/en-US/)。如果想了解FontForge的使用，可以看我翻译的官方文档[FontForge与字体设计](http://designwithfontforge.com/zh-CN/index.html)。
 
-这里需要注意的是字体内包含的字体名要与字体文件名一致。从iconfont.cn下载的字体不会有这个问题。
+这里需要注意的是字体内包含的字体名要与字体文件名一致。从iconfont.cn下载的字体可能需要重命名。点击下图字体项目的`编辑项目`按钮，Font Family一栏就是字体内包含的字体名，将下载解压后的ttf文件名修改为这个字体名。当然，也可以在下载后使用FontForge工具修改ttf文件内包含的字体名。
 
 ![Screenshot](http://johnwong.github.io/images/2015-04-04-iconfont-web.png)
 
