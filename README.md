@@ -1,5 +1,4 @@
-IconFont [![Pod version](https://badge.fury.io/co/IconFont.svg)](http://badge.fury.io/co/IconFont)
-
+# IconFont [![Pod version](https://badge.fury.io/co/IconFont.svg)](http://badge.fury.io/co/IconFont)
 =======================
 
 IconFont is a way to build lossless images of pure color with font file.
