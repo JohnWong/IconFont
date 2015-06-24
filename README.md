@@ -1,8 +1,4 @@
-IconFont 
-
-![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png)
-![Version](http://cocoapod-badges.herokuapp.com/v/IconFont/badge.png)
-![Platform](http://cocoapod-badges.herokuapp.com/p/IconFont/badge.png)
+IconFont ![License MIT](https://go-shields.herokuapp.com/license-MIT-blue.png) ![Version](http://cocoapod-badges.herokuapp.com/v/IconFont/badge.png) ![Platform](http://cocoapod-badges.herokuapp.com/p/IconFont/badge.png)
 
 =======================
 
