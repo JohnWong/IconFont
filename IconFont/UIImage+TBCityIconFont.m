@@ -41,4 +41,17 @@
     return image;
 }
 
++ (UIImage *)iconWithName:(NSString*)name fontSize:(CGFloat)size color:(UIColor*)color
+{
+#ifdef kTBCityIconDictionary
+    NSDictionary *nameToUnicode = kTBCityIconDictionary;
+    NSString *code = nameToUnicode[name];
+#else
+    NSString *code = nil;
+#endif
+    TBCityIconInfo *info = TBCityIconInfoMake(code, size, color);
+    return [self iconWithInfo:info];
+}
+
+
 @end
