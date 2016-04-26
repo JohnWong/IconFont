@@ -29,11 +29,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _appreciateIcon.image = [UIImage iconWithInfo:kTBCityIconAppreciate];
-    _checkIcon.image = [UIImage iconWithInfo:kTBCityIconCheck];
-    _closeIcon.image = [UIImage iconWithInfo:kTBCityIconClose];
-    _editIcon.image = [UIImage iconWithInfo:kTBCityIconEdit];
     
+    //使用名字的方式引用
+    _appreciateIcon.image = [UIImage iconWithName:@"nice" fontSize:48 color:[UIColor redColor]];
+    _checkIcon.image = [UIImage iconWithName:@"check" fontSize:48 color:[UIColor blueColor]];
+    _closeIcon.image = [UIImage iconWithName:@"关闭" fontSize:48 color:[UIColor greenColor]];
+    
+    _editIcon.image = [UIImage iconWithInfo:kTBCityIconEdit];
     _emojiIcon.image = [UIImage iconWithInfo:kTBCityIconEmoji];
     _favorFillIcon.image = [UIImage iconWithInfo:kTBCityIconFavorFill];
     _favorIcon.image = [UIImage iconWithInfo:kTBCityIconFavor];
