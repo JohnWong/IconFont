@@ -21,6 +21,7 @@
 		52DEC10B1ACF1AE400447ACC /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC1061ACF1AE400447ACC /* TBCityIconFont.m */; };
 		52DEC10C1ACF1AE400447ACC /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC1081ACF1AE400447ACC /* TBCityIconInfo.m */; };
 		52DEC10D1ACF1AE400447ACC /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DEC10A1ACF1AE400447ACC /* UIImage+TBCityIconFont.m */; };
+		BB49223D1D2E7DE500027406 /* UIImage+iconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = BB49223C1D2E7DE500027406 /* UIImage+iconFont.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,8 @@
 		52DEC1081ACF1AE400447ACC /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
 		52DEC1091ACF1AE400447ACC /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
 		52DEC10A1ACF1AE400447ACC /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
+		BB49223B1D2E7DE500027406 /* UIImage+iconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+iconFont.h"; sourceTree = "<group>"; };
+		BB49223C1D2E7DE500027406 /* UIImage+iconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+iconFont.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 		52DEC0E61ACF1AA000447ACC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BB49223B1D2E7DE500027406 /* UIImage+iconFont.h */,
+				BB49223C1D2E7DE500027406 /* UIImage+iconFont.m */,
 				52DEC0E71ACF1AA000447ACC /* JWPerformanceTestViewController.h */,
 				52DEC0E81ACF1AA000447ACC /* JWPerformanceTestViewController.m */,
 				52DEC0E91ACF1AA000447ACC /* TBCityIconViewController.h */,
@@ -239,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52DEC0FC1ACF1AA000447ACC /* TBCityIconViewController.m in Sources */,
+				BB49223D1D2E7DE500027406 /* UIImage+iconFont.m in Sources */,
 				52DEC0FB1ACF1AA000447ACC /* JWPerformanceTestViewController.m in Sources */,
 				52DEC0FA1ACF1AA000447ACC /* AppDelegate.m in Sources */,
 				52DEC10B1ACF1AE400447ACC /* TBCityIconFont.m in Sources */,
