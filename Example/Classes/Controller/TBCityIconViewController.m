@@ -7,7 +7,7 @@
 //
 
 #import "TBCityIconViewController.h"
-#import "UIImage+iconFont.h"
+#import "HQFontImageDictionary.h"
 
 @interface TBCityIconViewController ()
 
@@ -32,9 +32,9 @@
     [super viewDidLoad];
     
     //使用名字的方式引用
-    _appreciateIcon.image = [UIImage iconWithName:@"pause" fontSize:48 color:[UIColor redColor] inset:UIEdgeInsetsMake(10, 10, 10, 10)];
-    _checkIcon.image = [UIImage iconWithName:@"pause" fontSize:48 color:[UIColor blueColor]];
-    _closeIcon.image = [UIImage iconWithName:@"pause" fontSize:48 color:[UIColor greenColor]];
+    _appreciateIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor redColor] inset:UIEdgeInsetsMake(10, 10, 10, 10)];
+    _checkIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor blueColor] padding:0.3];
+    _closeIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor greenColor]];
     
     _editIcon.image = [UIImage iconWithInfo:kTBCityIconEdit];
     _emojiIcon.image = [UIImage iconWithInfo:kTBCityIconEmoji];

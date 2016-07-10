@@ -24,12 +24,4 @@
 #define kTBCityIconPhone        TBCityIconInfoMake(@"\U0000e60a", kTBCityIconSize, HEXCOLOR(0x000000))
 #define kTBCityIconRoundCheck   TBCityIconInfoMake(@"\U0000e60b", kTBCityIconSize, HEXCOLOR(0xf4c600))
 
-//自定义对应关系，建议iconfont.cn网站打包下载时可以生成此列表
-//一行一个，用字体里的名字对应上编码即可
-#define kTBCityIconDictionary   @{\
-@"nice":@"\U0000e600",\
-@"check":@"\U0000e601",\
-@"关闭":@"\U0000e602",\
-@"":@""}
-
 #endif

@@ -12,6 +12,5 @@
 @interface UIImage (TBCityIconFont)
 
 + (UIImage *)iconWithInfo:(TBCityIconInfo *)info;
-+ (UIImage *)iconWithName:(NSString*)name fontSize:(CGFloat)size color:(UIColor*)color;
 
 @end

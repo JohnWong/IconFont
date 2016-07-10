@@ -13,25 +13,29 @@
 @implementation UIImage (TBCityIconFont)
 
 + (UIImage *)iconWithInfo:(TBCityIconInfo *)info {
-    CGFloat size = info.size;
+    CGFloat w1 = info.size - info.imageInsets.left - info.imageInsets.right;
+    CGFloat w2 = info.size - info.imageInsets.top - info.imageInsets.bottom;
+    CGFloat size = MIN(w1, w2);
     CGFloat scale = [UIScreen mainScreen].scale;
     CGFloat realSize = size * scale;
+    CGFloat imageSize = info.size * scale;
     UIFont *font = [TBCityIconFont fontWithSize:realSize];
-    UIGraphicsBeginImageContext(CGSizeMake(realSize, realSize));
+    UIGraphicsBeginImageContext(CGSizeMake(imageSize, imageSize));
     CGContextRef context = UIGraphicsGetCurrentContext();
+    CGPoint point = CGPointMake(info.imageInsets.left*scale, info.imageInsets.top*scale);
  
     if ([info.text respondsToSelector:@selector(drawAtPoint:withAttributes:)]) {
         /**
          * 如果这里抛出异常，请打开断点列表，右击All Exceptions -> Edit Breakpoint -> All修改为Objective-C
          * See: http://stackoverflow.com/questions/1163981/how-to-add-a-breakpoint-to-objc-exception-throw/14767076#14767076
          */
-        [info.text drawAtPoint:CGPointZero withAttributes:@{NSFontAttributeName:font, NSForegroundColorAttributeName: info.color}];
+        [info.text drawAtPoint:point withAttributes:@{NSFontAttributeName:font, NSForegroundColorAttributeName: info.color}];
     } else {
         
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wdeprecated-declarations"
         CGContextSetFillColorWithColor(context, info.color.CGColor);
-        [info.text drawAtPoint:CGPointMake(0, 0) withFont:font];
+        [info.text drawAtPoint:point withFont:font];
 #pragma clang pop
     }
     
@@ -39,18 +43,6 @@
     UIGraphicsEndImageContext();
     
     return image;
-}
-
-+ (UIImage *)iconWithName:(NSString*)name fontSize:(CGFloat)size color:(UIColor*)color
-{
-#ifdef kTBCityIconDictionary
-    NSDictionary *nameToUnicode = kTBCityIconDictionary;
-    NSString *code = nameToUnicode[name];
-#else
-    NSString *code = nil;
-#endif
-    TBCityIconInfo *info = TBCityIconInfoMake(code, size, color);
-    return [self iconWithInfo:info];
 }
 
 
