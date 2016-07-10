@@ -34,7 +34,7 @@
     //使用名字的方式引用
     _appreciateIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor redColor] inset:UIEdgeInsetsMake(10, 10, 10, 10)];
     _checkIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor blueColor] padding:0.3];
-    _closeIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor greenColor]];
+    _closeIcon.image = [HQFontImageDictionary iconWithName:@"汉" fontSize:48 color:[UIColor redColor]];
     
     _editIcon.image = [UIImage iconWithInfo:kTBCityIconEdit];
     _emojiIcon.image = [UIImage iconWithInfo:kTBCityIconEmoji];
