@@ -174,3 +174,5 @@ HQFontImage是扩展和加强原来的使用方式，增加字体定义，名称
     _editIcon.image = [HQFontImageList iconWithName:@"汉" fontSize:48 color:[UIColor redColor]];
     _emojiIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor redColor] withBackgroundColor:[UIColor blackColor]];
 ```
+
+![Screenshot](https://raw.githubusercontent.com/hqlulu/hqlulu.github.io/master/static/iconFont2.png)
