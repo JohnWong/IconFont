@@ -90,4 +90,87 @@ IconFont
 ├── TBCityIconInfo.m
 ├── UIImage+TBCityIconFont.h
 └── UIImage+TBCityIconFont.m
+└── HQFontImage.h
+└── HQFontImage.m
+```
+
+## 新的引用方式说明
+
+### 关于HQFontImage
+
+HQFontImage是扩展和加强原来的使用方式，增加字体定义，名称到图标数据映射，用文字做图片，自定义背景颜色等。
+使用时需要定义子类使用，示例工程里有，可以参考使用。
+
+### 1 获取字体文件和相应的网页文件
+
+强烈建议用[iconfont.cn](http://iconfont.cn/)平台管理字体，资源多，易用。
+下载的zip文件，包含网页样例，我们可以从网页样例转换为我们需要用的数据
+
+### 2 转换数据
+
+我们只是增加了字体映射关系，方便使用，所以需要做一次转换，iconfont.cn 官方提供这样的转换会更好。
+目前官方没有，所以可以参考这个网页小工具：
+[http://www.aslibra.com/iconFont/](http://www.aslibra.com/iconFont/)
+把demo.html用浏览器打开，按提示处理即可，官方数据格式不变的情况下可用。
+我们把官方用在css的类名作为唯一名称做映射关系。
+
+### 3 做一个HQFontImage的子类
+
+定义映射关系或者自定义字体文件，上面提供的网页可以方便得到下面的数据
+
+```objective-c
++ (NSDictionary*)IconDictionary
+{
+    return @{
+             @"delete":@"\U0000e610", // 删除
+             @"shezhi":@"\U0000e60f", // 设置
+             @"order":@"\U0000e600", // order
+             @"jikediancanicon02":@"\U0000e601", // 订单
+             @"yinleyinpin":@"\U0000e602", // 音乐音频
+             @"luyin":@"\U0000e603", // 录音
+             @"tianjia":@"\U0000e604", // 添加
+             @"dingdan":@"\U0000e605", // 订单
+             @"tianjia1":@"\U0000e606", // 添加
+             @"shezhi1":@"\U0000e611", // 设置
+             @"8080pxtubiaokuozhan100":@"\U0000e615", // stop
+             @"socialconnect":@"\U0000e612", // social-connect
+             @"record":@"\U0000e616", // record
+             @"bookaskicon1417":@"\U0000e607", // setting
+             @"tixing":@"\U0000e608", // 提醒
+             @"iconmenubarorder":@"\U0000e609", // order
+             @"wifi":@"\U0000e60a", // WIFI
+             @"shezhi2":@"\U0000e60b", // 设置
+             @"gerenzhongxin01":@"\U0000e60c", // 个人中心 
+             @"group":@"\U0000e613", // Group 
+             @"help":@"\U0000e614", // help 
+             @"play":@"\U0000e617", // play 
+             @"tixing1":@"\U0000e60d", // 提醒 
+             @"yuyin":@"\U0000e60e", // 语音 
+             @"":@""};
+}
+
+//单独定义一个字体文件，方便管理多个字体库
++ (NSString*)fontName
+{
+    return @"iconfont";
+}
+```
+
+### 4 使用示例
+
+引用自定义的子类文件
+```objective-c
+#import "HQFontImageDictionary.h"
+#import "HQFontImageList.h"
+```
+
+使用图片
+```objective-c
+    //使用名字的方式引用
+    _appreciateIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor redColor] inset:UIEdgeInsetsMake(10, 10, 10, 10)];
+    _checkIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor blueColor] padding:0.3 withBackgroundColor:[UIColor yellowColor]];
+    _closeIcon.image = [HQFontImageDictionary iconWithName:@"汉" fontSize:48 color:[UIColor redColor]];
+    //自定义，但两个字体会有上下偏移不同，不知道是否字体文件问题
+    _editIcon.image = [HQFontImageList iconWithName:@"汉" fontSize:48 color:[UIColor redColor]];
+    _emojiIcon.image = [HQFontImageDictionary iconWithName:@"pause" fontSize:48 color:[UIColor redColor] withBackgroundColor:[UIColor blackColor]];
 ```
