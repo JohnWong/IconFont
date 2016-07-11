@@ -12,6 +12,8 @@
 @property (nonatomic, assign) NSInteger size;
 @property (nonatomic, assign) UIEdgeInsets imageInsets;
 @property (nonatomic, strong) UIColor *color;
+@property (nonatomic, strong) UIColor *backgroundColor;
+@property (nonatomic, strong) NSString *fontName;
 
 - (instancetype)initWithText:(NSString *)text size:(NSInteger)size color:(UIColor *)color;
 - (instancetype)initWithText:(NSString *)text size:(NSInteger)size color:(UIColor *)color inset:(UIEdgeInsets)inset;

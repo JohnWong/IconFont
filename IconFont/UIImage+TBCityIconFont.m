@@ -12,16 +12,24 @@
 
 @implementation UIImage (TBCityIconFont)
 
-+ (UIImage *)iconWithInfo:(TBCityIconInfo *)info {
++ (UIImage *)iconWithInfo:(TBCityIconInfo *)info
+{
     CGFloat w1 = info.size - info.imageInsets.left - info.imageInsets.right;
     CGFloat w2 = info.size - info.imageInsets.top - info.imageInsets.bottom;
     CGFloat size = MIN(w1, w2);
     CGFloat scale = [UIScreen mainScreen].scale;
     CGFloat realSize = size * scale;
     CGFloat imageSize = info.size * scale;
-    UIFont *font = [TBCityIconFont fontWithSize:realSize];
+    UIFont *font = info.fontName ?
+        [TBCityIconFont fontWithSize:realSize withFontName:info.fontName] :
+        [TBCityIconFont fontWithSize:realSize];
+    
     UIGraphicsBeginImageContext(CGSizeMake(imageSize, imageSize));
     CGContextRef context = UIGraphicsGetCurrentContext();
+    if (info.backgroundColor) {
+        [info.backgroundColor set];
+        UIRectFill(CGRectMake(0.0, 0.0, imageSize, imageSize)); //fill the background
+    }
     CGPoint point = CGPointMake(info.imageInsets.left*scale, info.imageInsets.top*scale);
  
     if ([info.text respondsToSelector:@selector(drawAtPoint:withAttributes:)]) {

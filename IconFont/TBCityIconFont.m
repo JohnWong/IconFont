@@ -33,6 +33,18 @@ static NSString *_fontName;
     return font;
 }
 
++ (UIFont *)fontWithSize: (CGFloat)size withFontName:(NSString*)fontName
+{
+    UIFont *font = [UIFont fontWithName:fontName size:size];
+    if (font == nil) {
+        NSURL *fontFileUrl = [[NSBundle mainBundle] URLForResource:fontName withExtension:@"ttf"];
+        [self registerFontWithURL: fontFileUrl];
+        font = [UIFont fontWithName:fontName size:size];
+        NSAssert(font, @"UIFont object should not be nil, check if the font file is added to the application bundle and you're using the correct font name.");
+    }
+    return font;
+}
+
 + (void)setFontName:(NSString *)fontName {
     _fontName = fontName;
 }
