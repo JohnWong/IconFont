@@ -14,6 +14,7 @@
 @interface TBCityIconFont : NSObject
 
 + (UIFont *)fontWithSize: (CGFloat)size;
++ (UIFont *)fontWithSize: (CGFloat)size withFontName:(NSString*)fontName;
 + (void)setFontName:(NSString *)fontName;
 
 @end
